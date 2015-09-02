@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body { height: 100%; width: 100%; position: absolute; overflow: hidden; margin: 0; padding: 0;}
+	</style>
+	<script type="text/javascript" src="index.js"></script>	
+</head>
+<body>
+	<div id="divRoute" style="position: absolute; left:20px; top:50px; overflow: hidden; color: #ffffff;">
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+	var n = buildNetwork();
+
+	computeFlowWithCost(n);
+
+	var graph = displayNetwork(n);
+
+
+
+</script>
+</html>
